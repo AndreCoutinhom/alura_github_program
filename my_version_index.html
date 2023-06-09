@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Filmes</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <h2>Filmes Populares</h2>
+    <div class="input-container">
+      <input type="text" name="movie-name" id="movie-name" placeholder="Digite algum filme para pesquisar...">
+      <img src="images/search-icon.svg" alt="Ícone de pesquisa" class="searchIcon">
+    </div>
+    <div class="showOnlyFavorites">
+      <input type="checkbox" name="onlyFavorites" id="onlyFavorites">
+      <label for="onlyFavorites">Mostrar apenas meus filmes favoritos</label>
+    </div>
+    <div class="movies">
+      <div class="movie">
+        <div class="movie-informations">
+          <div class="movie-image">
+            <img src="https://pbs.twimg.com/media/FuqJtZgXgAEb0nq.jpg:large" alt="Spider-Man: Across the Spider-verse (2023)"/>
+          </div>
+          <div class="movie-text">
+            <h4>Spider-Man: Across the Spider-verse (2023)</h4>
+            <div class="rating-favorites">
+              <div class="rating">
+                <img src="images/star.png" alt="Star Icon"/>
+                <span>9.2</span>
+              </div>
+              <div class="favorite">
+                <img src="images/heart.svg" alt="Star Icon"/>
+                <span>Favoritar</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="movie-description">
+          <span>Depois de se reunir com Gwen Stacy, Homem-Aranha é jogado no multiverso, onde ele encontra uma equipe encarregada de proteger sua própria existência.</span>
+        </div>
+      </div>
+
+      <div class="movie">
+        <div class="movie-informations">
+          <div class="movie-image">
+            <img src="https://assets-prd.ignimgs.com/2023/02/03/foevbcsayamvqpf-1675462826997.jpg" alt="Super Mario Bros (2023)"/>
+          </div>
+          <div class="movie-text">
+            <h4>Super Mario Bros (2023)</h4>
+            <div class="rating-favorites">
+              <div class="rating">
+                <img src="images/star.png" alt="Star Icon"/>
+                <span>9.2</span>
+              </div>
+              <div class="favorite">
+                <img src="images/heart.svg" alt="Star Icon"/>
+                <span>Favoritar</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="movie-description">
+          <span>Mario é um encanador junto com seu irmão Luigi. Um dia, eles vão parar no reino dos cogumelos, governado pela Princesa Peach, mas ameaçado pelo rei dos Koopas, que faz de tudo para conseguir reinar em todos os lugares.</span>
+        </div>
+      </div>
+
+      <div class="movie">
+        <div class="movie-informations">
+          <div class="movie-image">
+            <img src="https://m.media-amazon.com/images/I/61IRaGJBOIL._AC_UF894,1000_QL80_.jpg" alt="Scream VI (2023)"/>
+          </div>
+          <div class="movie-text">
+            <h4>Scream (2023)</h4>
+            <div class="rating-favorites">
+              <div class="rating">
+                <img src="images/star.png" alt="Star Icon"/>
+                <span>9.2</span>
+              </div>
+              <div class="favorite">
+                <img src="images/heart.svg" alt="Star Icon"/>
+                <span>Favoritar</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="movie-description">
+          <span>Sam e Mindy, os dois sobreviventes do massacre realizado pelo Ghostface, decidem deixar Woodsboro para trás em busca de um novo começo em Nova York. Mas não demora muito para eles se tornarem alvo de um novo serial killer.</span>
+        </div>
+      </div>
+    </div>
+  </main>
+</body>
+</html>
